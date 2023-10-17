@@ -1,0 +1,263 @@
+*{
+    font-family: montserrat;
+    margin: 0%;
+    padding: 0%;
+}
+
+#v{
+    width:100%;
+    height:auto;
+   
+    background: rgba(0,0,0,0.9);
+    z-index:3;
+    
+
+}
+
+
+nav{
+    position:relative;
+    background: transparent;
+}
+.section-padding{
+    padding: 100px 0;
+}
+
+
+#featu{
+    margin-top: 0px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }    
+
+.foot{
+    text-align: center;
+    background-color:rgba(0,0,0,0.7);
+    height:5%;
+    color: azure;
+}
+
+.home-sc1 ul li{
+    border-radius: 50px;
+    gap:10%;
+    align-items: center;
+}
+.carousel-item{
+    height:100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    bottom:220px;
+    z-index:2;
+}
+h2{
+    font-size: 2.36rem;
+}
+.log{
+    position:absolute;
+    margin-top: -40%;
+    margin-left:30%;
+    text-align: center;
+   width: 40%;
+   height:20%;
+}
+section{
+    margin: 0%;
+    padding: 4%!important;
+}
+h1{
+    text-transform: uppercase;
+    
+    font-weight: bolder;
+}
+h2{
+    text-transform: uppercase;
+
+    font-weight: bolder;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+#list{
+    background-color:rgba(0,0,0,0.7) ;
+}
+#list ul li{
+text-decoration: none;
+list-style-type: none;
+color:white;
+
+}
+.carousel-inner::before{
+content:'';
+position:absolute;
+width:100%;
+height:100%;
+top:0;
+left:0;
+background: rgba(0,0,0,0.7);
+z-index:1;
+}
+
+.carousel-item{
+    height:100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    bottom:220px;
+    z-index:2;
+}
+
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+.carousel-inner::before{
+content:'';
+position:absolute;
+width:100%;
+height:100%;
+top:0;
+left:0;
+
+background: rgba(0,0,0,0.7);
+z-index:1;
+}
+
+.navbar-nav a{
+    font-size:15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-weight: bolder;
+    background: transparent;
+ 
+}
+.navbar-nav a:hover{
+    border:1px solid grey;
+    background-color:#081b29;
+    color:white;
+    border-radius: 25px;
+    box-shadow: 0 0 25px cyan,
+                0 0 50px cyan,
+                0 0 75px cyan;
+}
+
+.navbar-light .navbar-brand{
+    color: #000;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover{
+    color:rgb(7, 7, 7);
+    background-color: gray;
+    
+}
+
+.navbar-light .navbar-nav .navbar-link{
+    color: #000;
+    background: transparent;
+}
+
+.w-100{
+  height:100vh; 
+}
+
+
+.service .card-body i{
+    font-size: 50px;
+}
+.team .card-body i{
+    font-size:20px;
+}
+.portfolio .card{
+    box-shadow: 15px 15px 40px rgba(0,0,0,0.15);
+}
+
+@media only screen and(min-width:768px) and (max-width:991px){
+    *{
+        padding-top: 5%;
+    }
+    .carousel-capsion{
+        bottom:370px;
+    }
+    .carousel-caption p{
+        width:100%;
+    }
+}
+
+
+
+@media only screen and(max-width:767px){
+    *{
+        padding-top: 5%;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .carousel-caption{
+        bottom:125px;
+    }
+    .carousel-capsion h5{
+        font-size: 17px;
+    }
+    .carousel-capsion a{
+        padding: 10px 15px;
+    }
+    .carousel-capsion p{
+  line-height: 1.6;
+  font-size: 12px;
+    }
+}
